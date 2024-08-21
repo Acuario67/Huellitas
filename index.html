@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuidado y Rescate Animal - Angel del Carmen Ake Cherres</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #28a745;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .section {
+            padding: 20px 0;
+        }
+        .bio, .projects, .contact {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cuidado y Rescate Animal</h1>
+        <p>Por Angel del Carmen Ake Cherres</p>
+    </header>
+
+    <nav>
+        <a href="#bio">Biografía</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#gallery">Galería</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <section id="bio" class="section bio">
+            <h2>Biografía</h2>
+            <p>Soy Angel del Carmen Ake Cherres, dedicado al cuidado y rescate de animales en estado de abandono o peligro. Mi pasión es ayudar a nuestros compañeros peludos y de plumas, dándoles la atención y el hogar que merecen.</p>
+        </section>
+
+        <section id="projects" class="section projects">
+            <h2>Proyectos</h2>
+            <p>Actualmente, estoy trabajando en varios proyectos para mejorar la calidad de vida de los animales que rescato. Estos incluyen:</p>
+            <ul>
+                <li>Rescate y reubicación de perros y gatos abandonados.</li>
+                <li>Campañas de concienciación sobre la adopción de mascotas.</li>
+                <li>Creación de un refugio para animales en peligro.</li>
+                <li>Colaboración con veterinarios para proporcionar atención médica.</li>
+            </ul>
+        </section>
+
+        <section id="gallery" class="section gallery">
+            <h2>Galería</h2>
+            <div>
+                <img src="https://via.placeholder.com/600x400?text=Perro" alt="Perro Rescatado">
+                <img src="https://via.placeholder.com/600x400?text=Gato" alt="Gato Rescatado">
+                <img src="https://via.placeholder.com/600x400?text=Pajaro" alt="Pájaro Rescatado">
+                <img src="https://via.placeholder.com/600x400?text=Tortuga" alt="Tortuga Rescatada">
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2>Contacto</h2>
+            <p>Si deseas ayudar en mis proyectos o tienes información sobre animales que necesitan ayuda, no dudes en contactarme.</p>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Tu Nombre" required>
+                <input type="email" name="email" placeholder="Tu Email" required>
+                <textarea name="message" placeholder="Tu Mensaje" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
